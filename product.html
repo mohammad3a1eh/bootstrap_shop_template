@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fa" data-bs-theme="dark" dir="rtl">
+
+<head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/multimenu.css">
+    <link rel="stylesheet" href="assets/css/costum.css">
+    <link rel="stylesheet" href="assets/css/rowslider.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img src="assets/images/logo.png" alt="" srcset="">
+                </a>
+
+                <form class="me-lg-auto ms-3 col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" id="textInput" class="form-control form-control-dark text-bg-dark"
+                        placeholder="جستجو در فروشگاه" aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light">ورود به حساب</button>
+                    <button type="button" class="btn btn-outline-light">ساخت حساب</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">سبد خرید</button>
+                    <!-- <button type="button" id="btnSwitch" class="btn btn-dark me-2">تم روشن</button> -->
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link" href="#" data-bs-toggle="dropdown">دسته بندی کالا ها</a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="#">ماشین</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">سدان</a></li>
+                                    <li><a class="dropdown-item" href="#">هاچ بک</a></li>
+                                    <li><a class="dropdown-item" href="#">سواری</a></li>
+                                    <li><a class="dropdown-item" href="#">کراس اوو</a></li>
+                                    <li><a class="dropdown-item" href="#">آفرود</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">ماشین</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">سدان</a></li>
+                                    <li><a class="dropdown-item" href="#">هاچ بک</a></li>
+                                    <li><a class="dropdown-item" href="#">سواری</a></li>
+                                    <li><a class="dropdown-item" href="#">کراس اوو</a></li>
+                                    <li><a class="dropdown-item" href="#">آفرود</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">ماشین</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">سدان</a></li>
+                                    <li><a class="dropdown-item" href="#">هاچ بک</a></li>
+                                    <li><a class="dropdown-item" href="#">سواری</a></li>
+                                    <li><a class="dropdown-item" href="#">کراس اوو</a></li>
+                                    <li><a class="dropdown-item" href="#">آفرود</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">ماشین</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">سدان</a></li>
+                                    <li><a class="dropdown-item" href="#">هاچ بک</a></li>
+                                    <li><a class="dropdown-item" href="#">سواری</a></li>
+                                    <li><a class="dropdown-item" href="#">کراس اوو</a></li>
+                                    <li><a class="dropdown-item" href="#">آفرود</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">ماشین</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">سدان</a></li>
+                                    <li><a class="dropdown-item" href="#">هاچ بک</a></li>
+                                    <li><a class="dropdown-item" href="#">سواری</a></li>
+                                    <li><a class="dropdown-item" href="#">کراس اوو</a></li>
+                                    <li><a class="dropdown-item" href="#">آفرود</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تخفیف ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">سوال داری؟</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="data container">
+
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/product/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/product/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">میتسوبیشی لنسر ایوو III</h5>
+
+                        <img src="assets/images/brand/mitsubishi.jpg" class="rounded " alt="..."
+                            style="width: 50px; height: 50px;">
+                        <a class="card-text"><small class="text-body-secondary">میتسوبیشی (Mitsubishi)</small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <button class="btn btn-primary" id="discripton_e" type="button" data-bs-toggle="collapse" data-bs-target="#description"
+                    aria-expanded="false" aria-controls="description">توضیحات</ذ>
+            </li>
+            <li class=" nav-item">
+                <button class="btn btn-primary" id="info_e" type="button" data-bs-toggle="collapse" data-bs-target="#info"
+                aria-expanded="false" aria-controls="info">مشخصات</button>
+            </li>
+            <li class="nav-item" id="comment_e">
+                <button class="nav-link">کامنت ها</button>
+            </li>
+            <li class="nav-item" id="question_e">
+                <button class="nav-link">سوالات</button>
+            </li>
+        </ul>
+
+
+        <div class="collapse mt-5" id="description">
+            <div class="text-justify mb-4" style="width: 100%;">
+                میتسوبیشی لنسر اوولوشن، که عموماً با نام Evo شناخته می‌شود، یک خودروی سدان و رالی اسپورت است که بر اساس لنسر ساخته شده است که توسط سازنده ژاپنی میتسوبیشی موتورز از سال 1992 تا 2016 ساخته شده است. تا به امروز ده نسخه رسمی وجود داشته است. و نام هر مدل معمولاً یک عدد رومی است. همه نسل‌ها از موتورهای چهار سیلندر خطی توربو خنک‌شده دو لیتری و سیستم‌های تمام چرخ متحرک استفاده می‌کنند.[2]
+            </div><div class="text-justify mb-4" style="width: 100%;">
+                Lancer در ابتدا فقط برای بازارهای ژاپن در نظر گرفته شده بود، اما تقاضا در بازار "واردات خاکستری" باعث شد که سری Evolution از طریق شبکه های نمایندگی Ralliart در انگلستان و در بازارهای مختلف اروپایی از حدود سال 1998 ارائه شود. میتسوبیشی تصمیم گرفت نسل هشتم را صادر کند. تکامل به ایالات متحده در سال 2003 پس از شاهد موفقیت سوبارو در آن بازار در سال قبل با سوبارو ایمپرزا WRX بود.
+</div><div class="text-justify mb-4" style="width: 100%;">
+    تمام نسخه های بازار داخلی، تا زمان عرضه Evolution IX در سال 2005، با توافق آقایان بین خودروسازان ژاپنی برای تبلیغ حداکثر 280 اسب بخار (206 کیلووات؛ 276 اسب بخار) محدود شده بود. با این حال، منابع می‌گویند که میتسوبیشی قبلاً خودروهایی با قدرت بیشتر تولید می‌کرد، اما خروجی‌های قدرت رسمی را دست کم گرفته بود تا از توافق پیروی کند.[3] بنابراین، هر نسخه بعدی به طور غیر رسمی بالاتر از ارقام قدرت اعلام شده تکامل یافته است، به طوری که Evolution IX در بازار ژاپن به قدرتی حدود 321 اسب بخار (236 کیلووات؛ 317 اسب بخار) رسیده است. نسخه‌های ویژه مختلف موجود در بازارهای دیگر، به‌ویژه بریتانیا، دارای قدرت خروجی رسمی تا 446 اسب بخار (328 کیلووات؛ 440 اسب بخار) هستند.
+</div><div class="text-justify mb-4" style="width: 100%;">
+    دهمین و آخرین نسل Lancer Evolution، Evolution X، در سال 2007 در ژاپن و در سال 2008 به بازارهای خارج از کشور عرضه شد. Evolution X تقریباً 10 سال تولید شد تا اینکه میتسوبیشی Lancer Evolution را در آوریل 2016 بازنشسته کرد.
+            </div>
+        </div>
+
+
+        <div class="collapse ms-5 me-5" id="info">
+            <table class="table me-5">
+                <tbody>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Larry the Bird</td>
+                    <td>sdkfjlskdfjs</td>
+                  </tr>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Larry the Bird</td>
+                    <td>sdkfjlskdfjs</td>
+                  </tr>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Larry the Bird</td>
+                    <td>sdkfjlskdfjs</td>
+                  </tr>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Larry the Bird</td>
+                    <td>sdkfjlskdfjs</td>
+                  </tr>
+                  <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Larry the Bird</td>
+                    <td>sdkfjlskdfjs</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="py-5 text-bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>شبکه های اجتماعی</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">تلگرام</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">اینستاگرام</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">توییتر</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">فیسبوک</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">لینکدین</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>شماره ها تماس</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">32333333</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">32333333-45</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">09111111111</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>دسترسی سریع</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">خانه</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">تخفیف ها</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">دسته بندی ها</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">درباره ما</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">پشتیبانی</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>میخوای از تخفیف ها با خبر بشی؟</h5>
+                        <p>ایمیل ات رو وارد کن تا از طریق ایمیل بهت اطلاع بدیم</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">ایمیل</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="ایمیل">
+                            <button class="btn btn-primary" type="button">عضویت</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>تمامی حقوق برای سایت محفوظ میباشد.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="theme_btn">
+        <button type="button" id="btnSwitch" class="btn btn-primary me-2">تم روشن</button>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">سبد خرید شما</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                محصولاتی که به سبد خرید خودتان اضافه کرده اید اینجا نمایش داده میشود
+            </div>
+
+            <button type="button" class="btn btn-secondary mt-5 ms-2">تکمیل فرآیند خرید</button>
+            <button type="button" class="btn btn-danger mt-5 ms-2">پاک کردن سبد خرید</button>
+
+
+            <div class="album py-5">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-1 g-4">
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">موز دولتی</h5>
+                                    <p class="card-text">مدل 1993 رنگ سفید دارای roll-cage</p>
+                                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                        <input type="number" class="btn btn-secondary" style="width: 100px;" disabled
+                                            value="4">
+                                        <button type="button" class="btn btn-secondary">-</button>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">حذف</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">موز دولتی</h5>
+                                    <p class="card-text">مدل 1993 رنگ سفید دارای roll-cage</p>
+                                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                        <input type="number" class="btn btn-secondary" style="width: 100px;" disabled
+                                            value="4">
+                                        <button type="button" class="btn btn-secondary">-</button>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">حذف</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">موز دولتی</h5>
+                                    <p class="card-text">مدل 1993 رنگ سفید دارای roll-cage</p>
+                                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                        <input type="number" class="btn btn-secondary" style="width: 100px;" disabled
+                                            value="4">
+                                        <button type="button" class="btn btn-secondary">-</button>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">حذف</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">موز دولتی</h5>
+                                    <p class="card-text">مدل 1993 رنگ سفید دارای roll-cage</p>
+                                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                        <input type="number" class="btn btn-secondary" style="width: 100px;" disabled
+                                            value="4">
+                                        <button type="button" class="btn btn-secondary">-</button>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">حذف</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="assets/images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">موز دولتی</h5>
+                                    <p class="card-text">مدل 1993 رنگ سفید دارای roll-cage</p>
+                                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                        <input type="number" class="btn btn-secondary" style="width: 100px;" disabled
+                                            value="4">
+                                        <button type="button" class="btn btn-secondary">-</button>
+                                    </div>
+                                    <button type="button" class="btn btn-danger">حذف</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/multimenu.js"></script>
+    <script src="assets/js/mode.js"></script>
+    <script src="assets/js/"></script>
+</body>
+
+</html>
